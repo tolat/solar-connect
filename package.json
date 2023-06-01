@@ -6,6 +6,7 @@
     "serve-favicon": "^2.5.0"
   },
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "pushtomain": "git add . && git commit -m 'generic commit' && git push origin main"
   }
 }
