@@ -1,10 +1,12 @@
 import styles from "./Navbar.module.css"
+import Button from "../UI/Buttons/Button"
 
 const Navbar = (props) =>{
     return(
         <div className={styles.container}>
-            <div className={styles.navItem}>Account</div>
-            <div className={styles.navItem}>Help</div>
+            <Button buttonText="Account"/>
+            <Button buttonText="Help"/>
+            
         </div>
 
     )

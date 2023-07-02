@@ -1,3 +1,18 @@
 .App{
   display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.page-container{
+  width: 100%;
+  
+}
+
+.MuiDataGrid-cell:focus{
+  outline: none !important;
+}
+
+.MuiDataGrid-cellCheckbox:focus{
+  outline: none !important;
 }

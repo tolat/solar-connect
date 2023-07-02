@@ -1,12 +1,14 @@
+import Button from "../UI/Buttons/Button"
 import styles from "./Sidebar.module.css"
+
 
 const Sidebar = (props) =>{
     return(
         <div className={styles.container}>
-            <div className={styles.icon}>Icon</div>
-            <div className={styles.icon}>Proj</div>
-            <div className={styles.icon}>Prod</div>
-            <div className={styles.icon}>Pack</div>
+            <Button className={styles.iconButton} buttonText="Icon"/>
+            <Button className={styles.iconButton} buttonText="Proj"/>
+            <Button className={styles.iconButton} buttonText="Prod"/>
+            <Button className={styles.iconButton} buttonText="Pack"/>
         </div>
     )
 }

@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+}
+
+thead {
+  text-align: left;
+}
+
+thead:hover{
+    background-color: none !important;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:hover {
+  cursor: pointer;
+  background-color: rgb(240, 240, 240);
+}
+
+tr {
+  border-bottom: 1px solid rgb(181, 181, 181);
+  height: 5rem;
+}
+
+td, th {
+    padding: 1rem;
+}
